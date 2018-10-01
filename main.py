@@ -13,7 +13,7 @@ class AddTradePopup(QtGui.QMainWindow):
         super(AddTradePopup, self).__init__(parent)
        	self.setWindowTitle(' ')
        	self.setWindowIcon(QtGui.QIcon('exclamation.png'))
-       	# self.setFixedSize(550, 300)
+       	self.setFixedSize(550, 300)
        	self.state = 'Hold'
        	self.label = QtGui.QLabel(self)
        	self.label.setText("Are you sure you'd like to "
