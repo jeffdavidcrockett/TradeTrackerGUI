@@ -188,8 +188,8 @@ color: rgb(255, 255, 255);</string>
                    <widget class="QLCDNumber" name="year_lcd">
                     <property name="minimumSize">
                      <size>
-                      <width>0</width>
-                      <height>0</height>
+                      <width>180</width>
+                      <height>81</height>
                      </size>
                     </property>
                     <property name="font">

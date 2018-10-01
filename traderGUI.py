@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'TraderGUI.ui'
+# Form implementation generated from reading ui file 'traderGui.ui'
 #
 # Created by: PyQt4 UI code generator 4.11.4
 #
@@ -102,7 +102,7 @@ class Ui_MainWindow(object):
         spacerItem2 = QtGui.QSpacerItem(68, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.horizontalLayout_4.addItem(spacerItem2)
         self.year_lcd = QtGui.QLCDNumber(self.frame_3)
-        self.year_lcd.setMinimumSize(QtCore.QSize(0, 0))
+        self.year_lcd.setMinimumSize(QtCore.QSize(180, 81))
         font = QtGui.QFont()
         font.setPointSize(8)
         self.year_lcd.setFont(font)
