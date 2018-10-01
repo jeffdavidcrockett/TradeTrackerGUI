@@ -36,8 +36,8 @@
        <widget class="QFrame" name="frame_2">
         <property name="minimumSize">
          <size>
-          <width>1242</width>
-          <height>1151</height>
+          <width>0</width>
+          <height>0</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -790,8 +790,8 @@ color: rgb(255, 255, 255);</string>
        <widget class="QFrame" name="frame">
         <property name="minimumSize">
          <size>
-          <width>1242</width>
-          <height>1151</height>
+          <width>0</width>
+          <height>0</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -1450,8 +1450,8 @@ color: rgb(255, 255, 255);</string>
      <widget class="QTabWidget" name="tabWidget">
       <property name="minimumSize">
        <size>
-        <width>2511</width>
-        <height>421</height>
+        <width>0</width>
+        <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
