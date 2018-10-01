@@ -102,7 +102,7 @@ class Ui_MainWindow(object):
         spacerItem2 = QtGui.QSpacerItem(68, 20, QtGui.QSizePolicy.Expanding, QtGui.QSizePolicy.Minimum)
         self.horizontalLayout_4.addItem(spacerItem2)
         self.year_lcd = QtGui.QLCDNumber(self.frame_3)
-        self.year_lcd.setMinimumSize(QtCore.QSize(180, 81))
+        self.year_lcd.setMinimumSize(QtCore.QSize(0, 0))
         font = QtGui.QFont()
         font.setPointSize(8)
         self.year_lcd.setFont(font)

@@ -5,11 +5,6 @@ import ctypes
 from PyQt4 import QtGui, QtCore
 from traderGUI import Ui_MainWindow
 
-if hasattr(QtCore.Qt, 'AA_EnableHighDpiScaling'):
-    PyQt4.QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling, True)
-
-if hasattr(QtCore.Qt, 'AA_UseHighDpiPixmaps'):
-    PyQt4.QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)
 
 myappid = u'mycompany.myproduct.subproduct.version' # arbitrary string
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
