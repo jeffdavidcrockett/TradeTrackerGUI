@@ -1,0 +1,7 @@
+__pycache__
+old_main.py
+trade_db.db
+new_main.py
+build/
+dist/
+main.spec
